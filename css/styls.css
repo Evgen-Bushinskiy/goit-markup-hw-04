@@ -187,8 +187,7 @@
 
                   .contacts {
                   display: block;
-                  padding-top: 32px;
-                  padding-bottom: 32px;
+                 
 
                   color:var(--main-text-color);
                   text-decoration: none;
@@ -206,15 +205,12 @@
                   }
 
 
-                  .contacts:hover, 
-                  .contacts:focus {
+                  .contacts .link:hover, 
+                  .contacts .link:focus {
                     color: var(--accent-color);
                   }
 
-                  .contacts:hover,
-                  .contacts:focus {
-                  fill: var(--accent-color);
-                  }
+                  
                   
             
               
@@ -513,7 +509,12 @@
                   padding-bottom: 60px;
                   }
                   
-                
+                  .footer-container {
+                    display: flex;
+
+                  }
+
+
                   .address {
                     font-style: normal;
                     margin-top: 20px;
@@ -556,6 +557,7 @@
         .social-links-section {
           margin-left: 72px;
           padding-top: 12px;
+          
         }
 
         .social-list {
