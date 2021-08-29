@@ -175,12 +175,12 @@
                 }
 
 
-                .contact {
+                .contacts {
                 display: flex; 
                 margin-left: auto;
                 }
 
-                .contact .item + .item {
+                .contacts .item + .item {
                 margin-left: 50px;
             }
 
@@ -207,7 +207,7 @@
 
 
                 .contacts:hover, 
-                .contact:focus {
+                .contacts:focus {
                   color: var(--accent-color);
                 }
 
@@ -357,6 +357,7 @@
                 .team-section {
                     padding-top: 94px;
                     padding-bottom: 94px;
+                    background-color: #F5F4FA; 
                     
                 }
 
@@ -407,6 +408,30 @@
                   text-align: center;
                   letter-spacing: 0.03em;
                   color: var(--main-text-color);
+                  margin-bottom: 16px;
+                }
+
+                .socials-list {
+                  display: flex;
+                  justify-content: center;
+                  
+                  
+                }
+                
+
+                .socials-item:not(:last-child) {
+                  margin-right: 10px;
+                  
+                }
+                  
+                  .socials-link {
+                  width: 44px;
+                  height: 44px;
+                  display: flex;
+                  align-items: center;
+                  justify-content: center;
+                  border-radius: 50%;
+                  background-color: #ffffff;
                 }
 
 
