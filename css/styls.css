@@ -503,96 +503,94 @@
 
                   /* footer */
 
-                  .footer {
-                  background-color: var(--background-color);
-                  padding-top: 60px;
-                  padding-bottom: 60px;
-                  }
-                  
-                  .footer-container {
-                    display: flex;
+.footer {
+  background-color: var(--background-color);
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
 
-                  }
+.footer-container {
+  display: flex;
+  margin-left: 420px;
+  
 
-
-                  .address {
-                    font-style: normal;
-                    margin-top: 20px;
-                  }
+}
 
 
-                  .address-item:not(:last-child) {
-                  margin-bottom: 9px;
-                  }
+.footer-link-address {
+  color: var(--White-color);
+}
 
-                  .address-link {
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 1.7;
-                    letter-spacing: 0.03em;
-                    color: var(--White-color);
-                    display: block;
-                  }
+.address {
+  font-style: normal;
+}
 
-                  .footer-contacts-link {
-                    font-weight: 400;
-                    font-size: 14px;
-                    line-height: 1.7;
-                    letter-spacing: 0.03em;
-                    color:var(--footer-contacts-link);   
-                    display: block;
-                  }
+.address-item:not(:last-child) {
+margin-bottom: 9px;
+}
 
-        .footer-title {
-          color: var(--White-color);
-          font-weight: 400;
-          font-size: 14px;
-          line-height: 1.14;
-          letter-spacing: 0.03em;
-          text-transform: uppercase;
-
-          margin-bottom: 20px;
-        }
-
-        .social-links-section {
-          margin-left: 72px;
-          padding-top: 12px;
-          
-        }
-
-        .social-list {
-          display: flex;
-        }
-
-        .social-list-item {
-          margin-right: 10px;
-        }
-
-        .icon-footer {
-          fill: var(--White-color);
-          width: 20px;
-          height:20px
-        }
-
-        .footer-social-link {
-          background: rgba(255, 255, 255, 0.1);
-          width: 44px;
-          height: 44px;
-          border-radius: 50%;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-        }
-
-        .footer-social-link:hover,
-        .footer-social-link:focus {
-          background-color: var(--accent-color);
-        }
+.footer-link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px; 
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
 
 
+.footer-page .text {
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
 
-                  
-                  
+.footer-title {
+  margin-bottom: 20px;
+
+  color: var(--White-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.social-links-section {
+  margin-left: 72px;
+  padding-top: 12px;
+}
+
+.social-list {
+  display: flex;
+}
+
+.social-list-item {
+  margin-right: 10px;
+}
+
+.icon-footer {
+  fill: var(--White-color);
+  width: 20px;
+  height:20px
+}
+
+.footer-social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+}
+
+
+
                   /* !!!!!!!!!! PORTFOLIO PAGE !!!!!!!!!! */
 
                   /*Фильтр, навигация сайта*/
